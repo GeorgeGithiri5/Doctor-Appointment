@@ -1,0 +1,81 @@
+:root{
+    --main-Back: #e4e2e236;
+    --main-Color: #3cdb27;
+    --banner-back: #2725213d;
+}
+.nav-item{
+    padding:0 2rem;
+}
+.nav-item a{
+    text-decoration: none;
+    color: var(--main-Color);
+    font-size: 16px;
+}
+.nav-item a:hover{
+    color: white;
+}
+.navbar-brand .logo1{
+    font-size: 45px;
+    font-weight: 800;
+    color: #1900ff;
+}
+.navbar-brand .logo2{
+    font-size: 40px;
+    font-style: italic;
+    color: rgb(218, 20, 20);
+    font-family: fantasy;
+}
+
+/* Banner */
+.banner h4{
+    font-size: 45px !important;
+    line-height: 1.5;
+    font-weight: 800;
+    opacity: 1;
+}
+.banner p{
+    font-size: 25px !important;
+    line-height: 1.2;
+    opacity: 1;
+}
+.banner{
+    background-color: var(--banner-back);
+    color: white;
+}
+
+.homebanner{
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.7)),url('./images/pharm.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.AdminBanner{
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.7)),url('./images/pharm.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+@media only screen and (max-width:720px){
+    .banner h4{
+        font-size: 35px !important;
+        line-height: 1.5;
+        font-weight: 800;
+        opacity: 1;
+    }
+    .banner p{
+        font-size: 15px !important;
+        line-height: 1.2;
+        opacity: 1;
+    }
+}
+
